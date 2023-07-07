@@ -151,7 +151,7 @@ const App = () => {
         <img src={logo} alt="WeatherAnsari" className="w-12" />
         <h4 className="text-3xl font-semibold">WeatherAnsari</h4>
       </div>
-      <div className="mx-auto w-[80%] sm:w-[400px] bg-glass p-6 sm:p-8">
+      <div className="mx-auto w-[85%] sm:w-[400px] bg-glass p-6 sm:p-8">
         <div className="flex bg-white rounded-lg gap-2 px-4 py-3 text-slate-500 shadow-lg w-full">
           <SearchIcon />
           <input
