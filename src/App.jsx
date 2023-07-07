@@ -6,7 +6,7 @@ import AirIcon from "@mui/icons-material/Air";
 import WaterDropOutlinedIcon from "@mui/icons-material/WaterDropOutlined";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
-import ExtraInfo from "./extraInfo";
+import ExtraInfo from "./ExtraInfo";
 
 const App = () => {
   const [city, setCity] = useState("");
