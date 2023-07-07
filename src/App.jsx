@@ -147,10 +147,7 @@ const App = () => {
         isDay ? "" : "night"
       } min-h-screen text-white flex flex-col py-2 gap-4 justify-center items-center`}
     >
-      <div className="flex justify-center items-center drop-shadow gap-4">
-        <img src={logo} alt="WeatherAnsari" className="w-12" />
-        <h4 className="text-3xl font-semibold">WeatherAnsari</h4>
-      </div>
+      <h4 className="text-3xl font-semibold drop-shadow">WeatherAnsari</h4>
       <div className="mx-auto w-[85%] sm:w-[400px] bg-glass p-6 sm:p-8">
         <div className="flex bg-white rounded-lg gap-2 px-4 py-3 text-slate-500 shadow-lg w-full">
           <SearchIcon />
