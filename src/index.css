@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-glass {
+  /* From https://css.glass */
+  background: rgba(141, 141, 141, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.app {
+  min-height: 100dvh;
+  background-image: url(./assets/img/day-background.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: background-image 0.8s ease-in;
+}
+.app.night {
+  background-image: url(./assets/img/night-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.app-content {
+  transition: all 0.5s ease;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.app-content.show-data {
+  transform: translateY(0);
+  opacity: 1;
+}
